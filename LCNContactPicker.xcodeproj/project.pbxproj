@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		6E0303D91C3A4692009DCD01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0303D81C3A4692009DCD01 /* main.m */; };
 		6E0303DC1C3A4692009DCD01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0303DB1C3A4692009DCD01 /* AppDelegate.m */; };
-		6E0303DF1C3A4692009DCD01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0303DE1C3A4692009DCD01 /* ViewController.m */; };
 		6E0303E21C3A4692009DCD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0303E01C3A4692009DCD01 /* Main.storyboard */; };
 		6E0303E41C3A4692009DCD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0303E31C3A4692009DCD01 /* Assets.xcassets */; };
 		6E0303E71C3A4692009DCD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0303E51C3A4692009DCD01 /* LaunchScreen.storyboard */; };
 		6E0303F21C3A4692009DCD01 /* LCNContactPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0303F11C3A4692009DCD01 /* LCNContactPickerTests.m */; };
 		6E0303FD1C3A4692009DCD01 /* LCNContactPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0303FC1C3A4692009DCD01 /* LCNContactPickerUITests.m */; };
+		6E0304121C3A46B3009DCD01 /* LCNContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E03040B1C3A46B3009DCD01 /* LCNContactModel.m */; };
+		6E0304131C3A46B3009DCD01 /* LCNContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E03040D1C3A46B3009DCD01 /* LCNContactView.m */; };
+		6E0304141C3A46B3009DCD01 /* LCNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E03040F1C3A46B3009DCD01 /* LCNTextField.m */; };
+		6E0304151C3A46B3009DCD01 /* LCNContactPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0304111C3A46B3009DCD01 /* LCNContactPickerView.m */; };
+		6E0304181C3A46C6009DCD01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0304171C3A46C6009DCD01 /* ViewController.m */; };
+		6EED816B1C3A4D980044CC6C /* LCNContactViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EED816A1C3A4D980044CC6C /* LCNContactViewStyle.m */; };
+		6EED816F1C3A652F0044CC6C /* Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6EED816E1C3A652F0044CC6C /* Demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		6E0303D81C3A4692009DCD01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E0303DA1C3A4692009DCD01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E0303DB1C3A4692009DCD01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6E0303DD1C3A4692009DCD01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6E0303DE1C3A4692009DCD01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6E0303E11C3A4692009DCD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E0303E31C3A4692009DCD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E0303E61C3A4692009DCD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,19 @@
 		6E0303F81C3A4692009DCD01 /* LCNContactPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCNContactPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0303FC1C3A4692009DCD01 /* LCNContactPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCNContactPickerUITests.m; sourceTree = "<group>"; };
 		6E0303FE1C3A4692009DCD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E03040A1C3A46B3009DCD01 /* LCNContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNContactModel.h; sourceTree = "<group>"; };
+		6E03040B1C3A46B3009DCD01 /* LCNContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNContactModel.m; sourceTree = "<group>"; };
+		6E03040C1C3A46B3009DCD01 /* LCNContactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNContactView.h; sourceTree = "<group>"; };
+		6E03040D1C3A46B3009DCD01 /* LCNContactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNContactView.m; sourceTree = "<group>"; };
+		6E03040E1C3A46B3009DCD01 /* LCNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNTextField.h; sourceTree = "<group>"; };
+		6E03040F1C3A46B3009DCD01 /* LCNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNTextField.m; sourceTree = "<group>"; };
+		6E0304101C3A46B3009DCD01 /* LCNContactPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNContactPickerView.h; sourceTree = "<group>"; };
+		6E0304111C3A46B3009DCD01 /* LCNContactPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNContactPickerView.m; sourceTree = "<group>"; };
+		6E0304161C3A46C6009DCD01 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E0304171C3A46C6009DCD01 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EED81691C3A4D980044CC6C /* LCNContactViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNContactViewStyle.h; sourceTree = "<group>"; };
+		6EED816A1C3A4D980044CC6C /* LCNContactViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNContactViewStyle.m; sourceTree = "<group>"; };
+		6EED816E1C3A652F0044CC6C /* Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +118,10 @@
 		6E0303D61C3A4692009DCD01 /* LCNContactPicker */ = {
 			isa = PBXGroup;
 			children = (
-				6E0303DA1C3A4692009DCD01 /* AppDelegate.h */,
-				6E0303DB1C3A4692009DCD01 /* AppDelegate.m */,
-				6E0303DD1C3A4692009DCD01 /* ViewController.h */,
-				6E0303DE1C3A4692009DCD01 /* ViewController.m */,
-				6E0303E01C3A4692009DCD01 /* Main.storyboard */,
-				6E0303E31C3A4692009DCD01 /* Assets.xcassets */,
-				6E0303E51C3A4692009DCD01 /* LaunchScreen.storyboard */,
-				6E0303E81C3A4692009DCD01 /* Info.plist */,
+				6EED81681C3A472A0044CC6C /* LCNContactPicker */,
 				6E0303D71C3A4692009DCD01 /* Supporting Files */,
+				6E0304161C3A46C6009DCD01 /* ViewController.h */,
+				6E0304171C3A46C6009DCD01 /* ViewController.m */,
 			);
 			path = LCNContactPicker;
 			sourceTree = "<group>";
@@ -117,16 +129,23 @@
 		6E0303D71C3A4692009DCD01 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E0303DA1C3A4692009DCD01 /* AppDelegate.h */,
+				6E0303DB1C3A4692009DCD01 /* AppDelegate.m */,
+				6E0303E31C3A4692009DCD01 /* Assets.xcassets */,
+				6EED816E1C3A652F0044CC6C /* Demo.gif */,
+				6E0303E81C3A4692009DCD01 /* Info.plist */,
+				6E0303E51C3A4692009DCD01 /* LaunchScreen.storyboard */,
+				6E0303E01C3A4692009DCD01 /* Main.storyboard */,
 				6E0303D81C3A4692009DCD01 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6E0303F01C3A4692009DCD01 /* LCNContactPickerTests */ = {
 			isa = PBXGroup;
 			children = (
-				6E0303F11C3A4692009DCD01 /* LCNContactPickerTests.m */,
 				6E0303F31C3A4692009DCD01 /* Info.plist */,
+				6E0303F11C3A4692009DCD01 /* LCNContactPickerTests.m */,
 			);
 			path = LCNContactPickerTests;
 			sourceTree = "<group>";
@@ -134,10 +153,43 @@
 		6E0303FB1C3A4692009DCD01 /* LCNContactPickerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6E0303FC1C3A4692009DCD01 /* LCNContactPickerUITests.m */,
 				6E0303FE1C3A4692009DCD01 /* Info.plist */,
+				6E0303FC1C3A4692009DCD01 /* LCNContactPickerUITests.m */,
 			);
 			path = LCNContactPickerUITests;
+			sourceTree = "<group>";
+		};
+		6EED81681C3A472A0044CC6C /* LCNContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6EED816D1C3A62BD0044CC6C /* Model */,
+				6EED816C1C3A62B80044CC6C /* View */,
+				6E0304101C3A46B3009DCD01 /* LCNContactPickerView.h */,
+				6E0304111C3A46B3009DCD01 /* LCNContactPickerView.m */,
+			);
+			path = LCNContactPicker;
+			sourceTree = "<group>";
+		};
+		6EED816C1C3A62B80044CC6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E03040C1C3A46B3009DCD01 /* LCNContactView.h */,
+				6E03040D1C3A46B3009DCD01 /* LCNContactView.m */,
+				6E03040E1C3A46B3009DCD01 /* LCNTextField.h */,
+				6E03040F1C3A46B3009DCD01 /* LCNTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EED816D1C3A62BD0044CC6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E03040A1C3A46B3009DCD01 /* LCNContactModel.h */,
+				6E03040B1C3A46B3009DCD01 /* LCNContactModel.m */,
+				6EED81691C3A4D980044CC6C /* LCNContactViewStyle.h */,
+				6EED816A1C3A4D980044CC6C /* LCNContactViewStyle.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +259,7 @@
 				TargetAttributes = {
 					6E0303D31C3A4692009DCD01 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6K9HLYD652;
 					};
 					6E0303EC1C3A4692009DCD01 = {
 						CreatedOnToolsVersion = 7.2;
@@ -246,6 +299,7 @@
 				6E0303E71C3A4692009DCD01 /* LaunchScreen.storyboard in Resources */,
 				6E0303E41C3A4692009DCD01 /* Assets.xcassets in Resources */,
 				6E0303E21C3A4692009DCD01 /* Main.storyboard in Resources */,
+				6EED816F1C3A652F0044CC6C /* Demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0303DF1C3A4692009DCD01 /* ViewController.m in Sources */,
+				6E0304181C3A46C6009DCD01 /* ViewController.m in Sources */,
 				6E0303DC1C3A4692009DCD01 /* AppDelegate.m in Sources */,
+				6E0304121C3A46B3009DCD01 /* LCNContactModel.m in Sources */,
+				6E0304141C3A46B3009DCD01 /* LCNTextField.m in Sources */,
+				6E0304151C3A46B3009DCD01 /* LCNContactPickerView.m in Sources */,
+				6EED816B1C3A4D980044CC6C /* LCNContactViewStyle.m in Sources */,
 				6E0303D91C3A4692009DCD01 /* main.m in Sources */,
+				6E0304131C3A46B3009DCD01 /* LCNContactView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +373,7 @@
 				6E0303E11C3A4692009DCD01 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		6E0303E51C3A4692009DCD01 /* LaunchScreen.storyboard */ = {
@@ -322,6 +382,7 @@
 				6E0303E61C3A4692009DCD01 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +474,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LCNContactPicker/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "LCNContactPicker/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chinamobile.LCNContactPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +487,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LCNContactPicker/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "LCNContactPicker/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chinamobile.LCNContactPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +563,7 @@
 				6E0304031C3A4692009DCD01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E0304041C3A4692009DCD01 /* Build configuration list for PBXNativeTarget "LCNContactPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +572,7 @@
 				6E0304061C3A4692009DCD01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E0304071C3A4692009DCD01 /* Build configuration list for PBXNativeTarget "LCNContactPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +581,7 @@
 				6E0304091C3A4692009DCD01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

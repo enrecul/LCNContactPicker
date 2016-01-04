@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ContactModel.m
 //  LCNContactPicker
 //
 //  Created by 黄春涛 on 15/12/31.
 //  Copyright © 2015年 黄春涛. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LCNContactModel.h"
 
-@interface ViewController : UIViewController
-
+@implementation LCNContactModel
 
 @end
-
