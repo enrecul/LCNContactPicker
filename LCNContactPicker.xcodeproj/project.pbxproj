@@ -120,6 +120,7 @@
 			children = (
 				6EED81681C3A472A0044CC6C /* LCNContactPicker */,
 				6E0303D71C3A4692009DCD01 /* Supporting Files */,
+				6EED816E1C3A652F0044CC6C /* Demo.gif */,
 				6E0304161C3A46C6009DCD01 /* ViewController.h */,
 				6E0304171C3A46C6009DCD01 /* ViewController.m */,
 			);
@@ -132,7 +133,6 @@
 				6E0303DA1C3A4692009DCD01 /* AppDelegate.h */,
 				6E0303DB1C3A4692009DCD01 /* AppDelegate.m */,
 				6E0303E31C3A4692009DCD01 /* Assets.xcassets */,
-				6EED816E1C3A652F0044CC6C /* Demo.gif */,
 				6E0303E81C3A4692009DCD01 /* Info.plist */,
 				6E0303E51C3A4692009DCD01 /* LaunchScreen.storyboard */,
 				6E0303E01C3A4692009DCD01 /* Main.storyboard */,

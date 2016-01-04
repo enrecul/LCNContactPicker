@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9721E82A0074D4867CA0685B4A959906607C8A47",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9721E82A0074D4867CA0685B4A959906607C8A47" : 0,
+    "94619B02F470779B13F886140529AEF5DAD383E7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E5AC9E47-AA4D-4BEA-9D3C-DC62499C1AEC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9721E82A0074D4867CA0685B4A959906607C8A47" : "LCNContactPicker\/",
+    "94619B02F470779B13F886140529AEF5DAD383E7" : "LCNContactPicker\/LCNContactPicker\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LCNContactPicker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LCNContactPicker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/enrecul\/LCNContactPicker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94619B02F470779B13F886140529AEF5DAD383E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/enrecul\/LCNContactPicker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9721E82A0074D4867CA0685B4A959906607C8A47"
+    }
+  ]
+}
